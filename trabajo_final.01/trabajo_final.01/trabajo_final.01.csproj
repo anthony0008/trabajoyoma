@@ -216,6 +216,12 @@
   <ItemGroup>
     <None Include="bin\sds.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\584855_black-chalkboard-wallpapers-walldevil-best-free-hd-desktop-and_1920x1080_h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\584855_black-chalkboard-wallpapers-walldevil-best-free-hd-desktop-and_1920x1080_h1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

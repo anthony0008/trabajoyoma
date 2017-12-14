@@ -24,3 +24,6 @@ C:\Users\tony stark\documents\visual studio 2013\Projects\trabajo_final.01\traba
 C:\Users\Thony Stark\Desktop\Visual Studio 2013\Projects\trabajo_final.01\trabajo_final.01\bin\Debug\trabajo_final.01.exe.config
 C:\Users\Thony Stark\Desktop\Visual Studio 2013\Projects\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final.01.exe
 C:\Users\Thony Stark\Desktop\Visual Studio 2013\Projects\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final.01.pdb
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\bin\Debug\trabajo_final.01.exe.config
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final.01.exe
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final.01.pdb

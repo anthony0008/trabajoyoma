@@ -34,5 +34,10 @@ namespace trabajo_final._01
         {
            
         }
+
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

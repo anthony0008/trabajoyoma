@@ -83,6 +83,28 @@ namespace trabajo_final._01.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _584855_black_chalkboard_wallpapers_walldevil_best_free_hd_desktop_and_1920x1080_h {
+            get {
+                object obj = ResourceManager.GetObject("584855_black-chalkboard-wallpapers-walldevil-best-free-hd-desktop-and_1920x1080_h" +
+                        "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _584855_black_chalkboard_wallpapers_walldevil_best_free_hd_desktop_and_1920x1080_h1 {
+            get {
+                object obj = ResourceManager.GetObject("584855_black-chalkboard-wallpapers-walldevil-best-free-hd-desktop-and_1920x1080_h" +
+                        "1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descarga {
             get {
                 object obj = ResourceManager.GetObject("descarga", resourceCulture);
