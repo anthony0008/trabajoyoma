@@ -36,7 +36,7 @@ namespace trabajo_final._01
             SQLiteDataAdapter adaptador = new SQLiteDataAdapter("select * from usuario ", cadenaconexion);
             DataTable tabla = new DataTable("usuarios");
             adaptador.Fill(tabla);
-            dgvmostrar.DataSource = tabla;
+           
         }
 
 
@@ -83,7 +83,7 @@ namespace trabajo_final._01
             SQLiteDataAdapter adaptador = new SQLiteDataAdapter("select * from usuario ", cadenaconexion);
             DataTable tabla = new DataTable("usuario");
             adaptador.Fill(tabla);
-            dgvmostrar.DataSource = tabla;
+            
         }
     }
 }

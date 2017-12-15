@@ -103,11 +103,11 @@
     <Compile Include="estado.Designer.cs">
       <DependentUpon>estado.cs</DependentUpon>
     </Compile>
-    <Compile Include="funcion supervisor.cs">
+    <Compile Include="facturar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="funcion supervisor.Designer.cs">
-      <DependentUpon>funcion supervisor.cs</DependentUpon>
+    <Compile Include="facturar.Designer.cs">
+      <DependentUpon>facturar.cs</DependentUpon>
     </Compile>
     <Compile Include="funcion.cs">
       <SubType>Form</SubType>
@@ -141,12 +141,6 @@
     <Compile Include="trabajo.Designer.cs">
       <DependentUpon>trabajo.cs</DependentUpon>
     </Compile>
-    <Compile Include="trabajo_tecnico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="trabajo_tecnico.Designer.cs">
-      <DependentUpon>trabajo_tecnico.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="acciones auxiliar.resx">
       <DependentUpon>acciones auxiliar.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,8 +159,8 @@
     <EmbeddedResource Include="estado.resx">
       <DependentUpon>estado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="funcion supervisor.resx">
-      <DependentUpon>funcion supervisor.cs</DependentUpon>
+    <EmbeddedResource Include="facturar.resx">
+      <DependentUpon>facturar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="funcion.resx">
       <DependentUpon>funcion.cs</DependentUpon>
@@ -192,9 +186,6 @@
     </Compile>
     <EmbeddedResource Include="trabajo.resx">
       <DependentUpon>trabajo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="trabajo_tecnico.resx">
-      <DependentUpon>trabajo_tecnico.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -16,5 +16,10 @@ namespace trabajo_final._01
         {
             InitializeComponent();
         }
+
+        private void acciones_supervisora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
