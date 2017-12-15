@@ -21,5 +21,35 @@ namespace trabajo_final._01
         {
 
         }
+
+        private void contraseña_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmusuario obj1 = new frmusuario();
+            obj1.Visible = true;
+            Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (txtcontraseña.Text  == "contraseña1")
+                 {
+                     nuevo_usuario obj2 = new nuevo_usuario();
+                     obj2.Visible = true;
+                     Visible = false;
+
+        }
+            else
+            {
+                MessageBox.Show ("error de contraseña");
+
+            }
+                
+
+        }
     }
 }

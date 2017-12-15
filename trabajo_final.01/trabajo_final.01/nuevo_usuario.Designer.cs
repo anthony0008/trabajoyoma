@@ -47,6 +47,7 @@
             this.txtnusuario.Name = "txtnusuario";
             this.txtnusuario.Size = new System.Drawing.Size(121, 20);
             this.txtnusuario.TabIndex = 1;
+            this.txtnusuario.TextChanged += new System.EventHandler(this.txtnusuario_TextChanged);
             // 
             // txtncontraseña
             // 
@@ -59,7 +60,6 @@
             // 
             this.cbocargo.FormattingEnabled = true;
             this.cbocargo.Items.AddRange(new object[] {
-            "supervisor",
             "auxiliar",
             "tecnico",
             "cajero"});
@@ -144,6 +144,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "limpiar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // pictureBox1
             // 

@@ -24,9 +24,10 @@ namespace trabajo_final._01
 
         private void button2_Click(object sender, EventArgs e)
         {
-            nuevo_usuario frm2 = new nuevo_usuario();
-
-            frm2.Show();
+            contraseña obj = new contraseña();
+            obj.Visible = true;
+            Visible = false;
+         
          
         }
 

@@ -51,3 +51,5 @@ C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\bin\Debug\EntityFramework.xml
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\bin\Debug\System.Data.SQLite.xml
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.contraseña.resources
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.facturar.resources
