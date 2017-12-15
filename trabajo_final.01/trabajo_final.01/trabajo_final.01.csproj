@@ -91,6 +91,12 @@
     <Compile Include="acciones tecnico.Designer.cs">
       <DependentUpon>acciones tecnico.cs</DependentUpon>
     </Compile>
+    <Compile Include="contraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contraseña.Designer.cs">
+      <DependentUpon>contraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="entrada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="acciones tecnico.resx">
       <DependentUpon>acciones tecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contraseña.resx">
+      <DependentUpon>contraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="entrada.resx">
       <DependentUpon>entrada.cs</DependentUpon>
