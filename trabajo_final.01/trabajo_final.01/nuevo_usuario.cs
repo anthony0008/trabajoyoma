@@ -13,29 +13,49 @@ namespace trabajo_final._01
 {
     public partial class nuevo_usuario : Form
     {
-
+        
 
         
         public nuevo_usuario()
         {
             InitializeComponent();
+            SQLiteConnection conectado = new SQLiteConnection("data source = C:\\sistema\\base.db;Version=3;");
+    
+               
+            
+            try {
+                conectado.Open();
+                
+
         }
+            catch (Exception)
+            {
+                MessageBox.Show("error");
+
+            }
+
+        }
+
+
+       
+
+
+
+
+
+
 
         private void consulta()
         {
-            SQLiteConnection cadenaconexion = new SQLiteConnection("data source = C:/Users/tony stark/Documents/Visual Studio 2013/Projects/trabajo_final.01/trabajo_final.01/bin/Debug/usuario.sqlite");
-            cadenaconexion.Open();
+            
 
         }
 
         private void cargardatos()
         {
-            SQLiteConnection cadenaconexion = new SQLiteConnection("data source = C:/Users/tony stark/Documents/Visual Studio 2013/Projects/trabajo_final.01/trabajo_final.01/bin/Debug/usuario.sqlite");
-            cadenaconexion.Open();
+            
 
-            SQLiteDataAdapter adaptador = new SQLiteDataAdapter("select * from usuario ", cadenaconexion);
-            DataTable tabla = new DataTable("usuarios");
-            adaptador.Fill(tabla);
+            
            
         }
 
@@ -71,8 +91,15 @@ namespace trabajo_final._01
 
         private void btnregistrar_Click(object sender, EventArgs e)
         {
-           
-
+            
+            
+            SQLiteConnection conectado = new SQLiteConnection("data source = C:\\sistema\\base.db;Version=3;");
+            string comando = "insert into usuario values ("+txtnusuario.Text+","+txtncontraseña.Text+","+cbocargo.Text+")";
+            SQLiteCommand datos = new SQLiteCommand (comando,conectado);
+            if (datos.ExecuteNonQuery() > 0)
+                MessageBox.Show("usuario creado");
+            else
+                MessageBox.Show("error");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -82,6 +109,8 @@ namespace trabajo_final._01
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+
             SQLiteConnection cadenaconexion = new SQLiteConnection("data source = C:/Users/tony stark/Documents/Visual Studio 2013/Projects/trabajo_final.01/trabajo_final.01/bin/Debug/usuario.sqlite");
             cadenaconexion.Open();
             
