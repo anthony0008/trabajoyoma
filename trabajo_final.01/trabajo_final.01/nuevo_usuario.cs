@@ -93,13 +93,14 @@ namespace trabajo_final._01
         {
             
             
-            SQLiteConnection conectado = new SQLiteConnection("data source = C:\\sistema\\base.db;Version=3;");
-            string comando = "insert into usuario values ("+txtnusuario.Text+","+txtncontraseña.Text+","+cbocargo.Text+")";
+            SQLiteConnection conectado = new SQLiteConnection("data source =base.s3db;Version=3;");
+            conectado.Open();
+        
+            string comando = "insert into usuarios values (null,'" +txtnusuario.Text+"','"+cbocargo.Text+"','"+txtncontraseña.Text+"' )";
             SQLiteCommand datos = new SQLiteCommand (comando,conectado);
             if (datos.ExecuteNonQuery() > 0)
                 MessageBox.Show("usuario creado");
-            else
-                MessageBox.Show("error");
+           
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

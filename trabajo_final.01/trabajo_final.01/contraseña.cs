@@ -36,7 +36,7 @@ namespace trabajo_final._01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtcontraseña.Text  == "contraseña1")
+            if (txtcontraseña.Text  == "1")
                  {
                      nuevo_usuario obj2 = new nuevo_usuario();
                      obj2.Visible = true;

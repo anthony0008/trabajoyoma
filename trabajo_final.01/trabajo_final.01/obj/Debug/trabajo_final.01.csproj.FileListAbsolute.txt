@@ -34,7 +34,6 @@ C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.acciones_tecnico.resources
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.entrada.resources
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.estado.resources
-C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.funcion.resources
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.informe.resources
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.frmusuario.resources
 C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.nuevo_usuario.resources
@@ -82,3 +81,4 @@ C:\Users\user\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj
 C:\Users\user\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.Properties.Resources.resources
 C:\Users\user\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.trabajo.resources
 C:\Users\user\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final.01.csproj.GenerateResource.Cache
+C:\Users\Thony Stark\Documents\GitHub\trabajoyoma\trabajo_final.01\trabajo_final.01\obj\Debug\trabajo_final._01.pasar.resources
